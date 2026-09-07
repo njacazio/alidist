@@ -26,6 +26,7 @@ cmake $SOURCEDIR -DCMAKE_INSTALL_PREFIX=$INSTALLROOT       \
                  -DACTS_BUILD_EXAMPLES=ON                  \
                  -DACTS_BUILD_ANALYSIS_APPS=ON             \
                  -DACTS_BUILD_EXAMPLES_PYTHIA8=ON          \
+                 -DACTS_BUILD_ALIGNMENT=ON                 \
                  -DACTS_BUILD_PLUGIN_ROOT=ON               \
                  -DCMAKE_PREFIX_PATH=${PYTHIA_ROOT}        \
                  -DACTS_BUILD_PLUGIN_GEANT4=ON             \
