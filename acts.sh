@@ -1,5 +1,5 @@
 package: ACTS
-version: "v47.7.0"
+version: "%(tag_basename)s"
 tag: "v47.7.0-alice"
 requires:
   - ROOT
